@@ -105,7 +105,93 @@
 
 # coisa(n1, n2, n3)
 
-------------------------------
+# 6/7. R: Uma variável global pode ser utilizada em todo o código, ao contrário da local que só pode ser utilizada dentro do bloco onde foi declarada.
+
+
+# 8. R: 
+
+# idade = 20
+
+# def mudarIdade():
+#     idade = int(input("Insira sua idade: "))
+
+# mudarIdade()
+
+# 9. R:
+
+# def repetHllw():
+#     for i in range(0,4):
+#         print("Hello World")
+
+# repetHllw()
+
+# 10. R:
+
+# def parOuimpar():
+#     for i in range(0,5):
+#         x = int(input("Insira um número: "))
+#         if(x%2==0):
+#             print(f"\n{x} é um número Par")
+#         else:
+#             print(f"\n{x} é um número Ímpar")
+
+# parOuimpar()
+
+# 11/12. R:
+
+# def somaNums():
+#     a = int(input("\nInsira o primeiro número: "))
+#     b = int(input("\nInsira o segundo número: "))
+#     soma = a+b
+#     print(f"\nO resultado é {soma}")
+
+# def subNums():
+#     a = int(input("\nInsira o primeiro número: "))
+#     b = int(input("\nInsira o segundo número: "))
+#     sub = a-b
+#     print(f"\nO resultado é {sub}")
+
+# def divNums():
+#     a = int(input("\nInsira o primeiro número: "))
+#     b = int(input("\nInsira o segundo número: "))
+#     div = a//b
+#     print(f"\nO resultado é {div}")
+
+# def multNums():
+#     a = int(input("\nInsira o primeiro número: "))
+#     b = int(input("\nInsira o segundo número: "))
+#     mult = a*b
+#     print(f"\nO resultado é {mult}")
+
+# def menuPrincipal():
+#     print("\n====== Menu Principal ======")
+#     print("\n1. Somar dois números")
+#     print("\n2. Subtrair dois números")
+#     print("\n3. Dividir dois números")
+#     print("\n4. Multiplicar dois números")
+#     print("\n5. Sair")
+    
+#     x = False
+
+#     while(x==False):
+        
+#         opc = int(input("\nInsira sua opção: "))
+
+#         if(opc>5 or opc<1):
+#             print("\nApenas entre 1 e 5!")
+#         elif(opc==1):
+#             somaNums()
+#         elif(opc==2):
+#             subNums()
+#         elif(opc==3):
+#             divNums()
+#         elif(opc==4):
+#             multNums()
+#         else:
+#             print("\nFinalizando ...")
+#             break
+
+# menuPrincipal()
 
 # 13.
 
