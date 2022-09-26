@@ -104,3 +104,59 @@
 # n3 = int(input("Insira o 3 número: "))
 
 # coisa(n1, n2, n3)
+
+------------------------------
+
+# 13.
+
+# def calcFatorial():
+#     x = int(input("\nInsira o número para resultado fatorial: "))
+#     fat = 1
+#     i = 2
+    
+#     if(x<0):
+#         print("\nApenas número inteiro positivo!")
+#     else:
+#         while(i<=x):
+            
+#             fat = fat * i
+#             i = i + 1
+        
+#         print(f"O resultado fatorial de {x} é {fat}")
+
+# calcFatorial()
+
+# 14. 
+
+# def tot_medAlunos():
+#     qtd_alu = int(input("\nInsira a quantidade de alunos: "))
+#     nm_disc = input("\nInsira o nome da disciplina: ")
+#     vet_medAlu = [0] * qtd_alu
+#     vet_1nota = [0] * qtd_alu
+#     vet_2nota = [0] * qtd_alu
+#     vet_3nota = [0] * qtd_alu
+#     vet_sit = [str] * qtd_alu
+
+#     for i in range (0, len(vet_medAlu)):
+#         vet_1nota[i] = int(input(f"\nInsira a 1 nota do {i+1} aluno: "))
+#         vet_2nota[i] = int(input(f"\nInsira a 2 nota do {i+1} aluno: "))
+#         vet_3nota[i] = int(input(f"\nInsira a 3 nota do {i+1} aluno: "))
+        
+#         med_aluno = float(round(((vet_1nota[i]+vet_2nota[i]+vet_3nota[i])/3),1))
+#         vet_medAlu[i] = med_aluno
+
+#     for z in range (0, len(vet_medAlu)):
+#         if(vet_medAlu[z]>=60.0):
+#             vet_sit[z] = "Aprovado"
+#         else:
+#             vet_sit[z] = "Reprovado"
+
+#     print(f"\n====== Disciplina: {nm_disc} ======")
+
+#     for r in range(0, len(vet_medAlu)):
+#         print(f"\nA média do {r+1} aluno é {vet_medAlu[r]}")
+#         print(f"\nA 1 nota é {vet_1nota[r]}")
+#         print(f"\nA 2 nota é {vet_2nota[r]}")
+#         print(f"\nA 3 nota é {vet_3nota[r]}")
+#         print(f"\nSituação: {vet_sit[r]}")
+# tot_medAlunos()
