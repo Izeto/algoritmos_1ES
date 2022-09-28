@@ -79,3 +79,21 @@
 
 # principal()
 
+# import random
+
+# v = [0] * 10
+
+# for i in range(0,10):
+#     v[i]=random.randint(0,100)
+
+# def numMenor(vet):
+#     menor = vet[0]
+#     for y in range(0,10):
+#         if(vet[y]<menor):
+#             menor=vet[y]
+    
+#     return menor
+
+# x=numMenor(v)
+# print(v)
+# print(f"\nO menor número do vetor é: {x}")
