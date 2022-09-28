@@ -56,7 +56,8 @@
 # mostrarX()
 # print(x)
 
-#return-----
+#return para retornar algum resultado ao procedimento, o tornando função -----
+#função deve ser armazenada em alguma variável
 
 # def calcFatorial(x):
 #     fat = 1
