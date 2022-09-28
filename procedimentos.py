@@ -79,6 +79,42 @@ def menuPrincipal():
 
 menuPrincipal()
 
+# Exercício 2 - a, b, c
+
+# import random
+
+# vetor = [0] * 10
+
+# for z in range(0,10):
+#     vetor[z] = random.randint(0,100)
+
+# def printVetor(vet):
+#     for i in range(0,10):
+#         print(vet[i])
+
+# printVetor(vetor)
+
+# def numMaior(vet):
+#     maior = vet[0]
+#     for y in range(0,10):
+#         if(vet[y]>maior):
+#             maior=vet[y]
+    
+#     print(f"O maior número é {maior}")
+
+# numMaior(vetor)
+
+# def numMenor(vet):
+#     menor = vet[0]
+#     for y in range(0,10):
+#         if(vet[y]<menor):
+#             menor=vet[y]
+    
+#     print(f"O menor número é {menor}")
+
+# numMenor(vetor)
+
+# Exercício 3 ========== Junção exercícios 1 e 2 ==========
 
 
 import math
