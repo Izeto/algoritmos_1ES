@@ -1,8 +1,6 @@
 import math
 import random
 
-from mysqlx import Result
-
 def numInteiro():
     insInt = int(input("\nInsira um número inteiro: "))
 
@@ -77,7 +75,8 @@ def menuPrinc():
         print("\n3. Área do Triângulo")
         print("\n4. Área do Trapézio")
         print("\n5. Volume do Cubo")
-        print("\n6. Sair")
+        print("\n6. Cálculo de Fatorial")
+        print("\n7. Sair")
 
         try:
             opc = int(input("\nInsira a opção escolhida: "))
@@ -88,8 +87,8 @@ def menuPrinc():
             continue
 
         
-        if(opc > 6 or opc < 1):
-            print("\nApenas entre 1 e 6!")
+        if(opc > 7 or opc < 1):
+            print("\nApenas entre 1 e 7!")
         elif(opc == 1):
             l = int(input("\nInsira o valor de um lado do quadrado: "))
             opc1 = areaQuad(l)
@@ -122,6 +121,11 @@ def menuPrinc():
             return opc5
 
         elif(opc == 6):
+            x = int(input("\nInsira o valor para cálculo de fatorial: "))
+            opc6 = calcFatorial(x)
+            return opc6
+
+        else:
             y = "\nFinalizando ..."
             return y
             
@@ -158,3 +162,24 @@ def volCubo(b,h,p):
     result = (f"\nDada as medidas, o volume do cubo é: {resVolCubo}m³")
 
     return result
+
+def calcFatorial(x):
+    
+    fat = 1
+    i = 2
+    f = False
+    
+    while(f==False):
+        if(x<0):
+            print("\nApenas número inteiro positivo!")
+            while(x<0):
+                x = int(input("\nInsira o valor para cálculo de fatorial: "))
+        else:
+            while(i<=x):
+                
+                fat = fat * i
+                i = i + 1
+            
+        result = (f"\nO resultado fatorial de {x} é {fat}")
+
+        return result
