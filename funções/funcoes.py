@@ -183,3 +183,4 @@ def calcFatorial(x):
         result = (f"\nO resultado fatorial de {x} é {fat}")
 
         return result
+print("teste")
