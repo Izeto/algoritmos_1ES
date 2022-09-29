@@ -165,21 +165,29 @@ def volCubo(b,h,p):
 
 def calcFatorial(x):
     
-    fat = 1
-    i = 2
-    f = False
-    
-    while(f==False):
-        if(x<0):
-            print("\nApenas número inteiro positivo!")
-            while(x<0):
-                x = int(input("\nInsira o valor para cálculo de fatorial: "))
-        else:
-            while(i<=x):
-                
-                fat = fat * i
-                i = i + 1
-            
-        result = (f"\nO resultado fatorial de {x} é {fat}")
+    fat = math.factorial(x)
 
-        return result
+    result = (f"\nO resultado fatorial de {x} é {fat}")
+
+    return result
+
+    #ou
+    
+    # fat = 1
+    # i = 2
+    # f = False
+    
+    # while(f==False):
+    #     if(x<0):
+    #         print("\nApenas número inteiro positivo!")
+    #         while(x<0):
+    #             x = int(input("\nInsira o valor para cálculo de fatorial: "))
+    #     else:
+    #         while(i<=x):
+                
+    #             fat = fat * i
+    #             i = i + 1
+            
+    #     result = (f"\nO resultado fatorial de {x} é {fat}")
+
+    #     return result
